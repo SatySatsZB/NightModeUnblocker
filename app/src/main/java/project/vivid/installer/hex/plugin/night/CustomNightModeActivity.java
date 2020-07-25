@@ -30,7 +30,7 @@ public class CustomNightModeActivity extends Activity {
             contentResolver.insert(Uri.parse("content://settings/system"), contentValues);
             startActivity(new Intent("android.settings.NIGHT_THEME_SETTINGS"));
         } catch (Exception e) {
-            Toast.makeText(getApplicationContext(), "Failed to enable Night Mode", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Failed to enable Night Mode", Toast.LENGTH_LONG).show();
             e.printStackTrace();
         } finally {
             finish();
