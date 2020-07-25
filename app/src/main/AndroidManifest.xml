@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="project.vivid.installer.hex.plugin.night">
     <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
-    <application android:theme="@style/transparent" android:label="#hex_NightMode_" android:icon="@mipmap/ic_launcher" android:allowBackup="false" android:supportsRtl="false"
+    <application android:theme="@style/transparent" android:label="#hex_ night-mode" android:icon="@mipmap/ic_launcher" android:allowBackup="false" android:supportsRtl="false"
         tools:ignore="GoogleAppIndexingWarning">
         <meta-data android:name="android.max_aspect" android:value="2.1"/>
         <activity android:name="project.vivid.installer.hex.plugin.night.CustomNightModeActivity" android:screenOrientation="portrait">
