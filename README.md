@@ -1,0 +1,1 @@
+OneUI based on Android Pie does not allow us to enable night mode, when a theme is applied. This hex installer's tiny plugin helps us to unblock that restriction without any special permission or root.
